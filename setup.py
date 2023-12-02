@@ -11,7 +11,7 @@ setup(
     description= "Garbage dataloader",
     long_description="Garbage dataset is taken from Internet",
     long_description_content_type="text/markdown",
-    url="https://github.com/huanUITk16/garbageDataloader.git",
+    url="https://github.com/huanUITk16/GARBAGE.git",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
