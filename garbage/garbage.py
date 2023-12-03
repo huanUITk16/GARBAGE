@@ -9,8 +9,8 @@ def get_path_dataset():
     temp_dir = tempfile.mkdtemp()
     print(temp_dir)
 # Define the default and backup server URLs for downloading the dataset
-    default_server_url = "https://drive.google.com/file/d/1xWblKHCgsMPm60IwdNN8vVTIL3T1PdZj/view?usp=sharing"
-    backup_server_url = "https://drive.google.com/file/d/1xWblKHCgsMPm60IwdNN8vVTIL3T1PdZj/view?usp=sharing"
+    default_server_url = "http://clouds.iec-uit.com/smartbin.test1/Dataset.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GYBKU365PB7L3NP1SEUR%2F20231203%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231203T114849Z&X-Amz-Expires=604800&X-Amz-Security-Token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiJHWUJLVTM2NVBCN0wzTlAxU0VVUiIsImV4cCI6MTcwMTY0NzI4MiwicGFyZW50Ijoic21hcnRiaW4ifQ.EAxA8gkGhQSc1ONiTCXJujJcROMPgNdtxeDZnADEtZ7C_p209rBAA1J5CPUVhWZS6Em7fQdV3koOk21Qa6OWiA&X-Amz-SignedHeaders=host&versionId=null&X-Amz-Signature=0080c1bf45c8399b6fc9e60d000e0efdc9287080951d349134769e7817e76a2e"
+    backup_server_url = "http://clouds.iec-uit.com/smartbin.test1/Dataset.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GYBKU365PB7L3NP1SEUR%2F20231203%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231203T114849Z&X-Amz-Expires=604800&X-Amz-Security-Token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiJHWUJLVTM2NVBCN0wzTlAxU0VVUiIsImV4cCI6MTcwMTY0NzI4MiwicGFyZW50Ijoic21hcnRiaW4ifQ.EAxA8gkGhQSc1ONiTCXJujJcROMPgNdtxeDZnADEtZ7C_p209rBAA1J5CPUVhWZS6Em7fQdV3koOk21Qa6OWiA&X-Amz-SignedHeaders=host&versionId=null&X-Amz-Signature=0080c1bf45c8399b6fc9e60d000e0efdc9287080951d349134769e7817e76a2e"
 # Specify the path for the downloaded ZIP file in the temporary directory
     zip_file_path = os.path.join(temp_dir, "dataset.zip")
     print("zip_file_path", zip_file_path)
